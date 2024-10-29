@@ -2,7 +2,7 @@
 
 Code snippets for adding client-side telemetry from Application Insights in an Azure AI Search application, as described in [Collect telemetry data for search traffic analytics](/azure/search/search-traffic-analytics) in the Azure AI Search documentation.
 
-You can also get service-side telemetry through diagnostic logs added to a metrics database or log store. User queries are captured service-side in these logs, so if your objective is to monitor query operations, see [Monitor Azure AI Search](/azure/search/monitor-azure-cognitive-search) instead.
+You can also get service-side telemetry through diagnostic logs added to a metrics database or log store. User queries are captured service-side in these logs, so if your objective is to monitor query operations, see [Monitor Azure AI Search](/azure/search/monitor-azure-cognitive-search) instead. You can also [use log queries](/azure/azure-monitor/logs/queries) for insights into index and query processing.
 
 This repository provides code snippets in C# and JavaScript.
 
@@ -12,7 +12,7 @@ This repository provides code snippets in C# and JavaScript.
 
 - [Application Insights](/azure/azure-monitor/app/create-workspace-resource), a feature of Azure Monitor
 
-- A rich client application that provides an interactive search experience that includes click events and other user actions.
+- A rich client application providing an interactive search experience that includes click events or other user actions that you want to correlate to search result selections
 
 ## Add instrumentation to your client code
 
